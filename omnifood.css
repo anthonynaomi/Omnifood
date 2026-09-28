@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9.6rem;
+    position: relative;
+}
+
+.logo {
+    height: 1.6rem;
+    padding: 0 4.2rem;
+    
+}
+.nav {
+    display: flex;
+    gap: 4.8rem;
+    list-style: none;
+    justify-content: space-between;
+}
+.nav-list {
+    color: rgb(54, 28, 10);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.nav-btn {
+    background-color: orange;
+    width: 8.5rem;
+    height: 2.3rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin: 3rem;
+   margin-bottom: 4rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-btn:hover {
+    background-color: rgb(227, 148, 2);
+}
