@@ -29,6 +29,10 @@
     font-weight: bold;
     font-size: 1.3rem;
 }
+.nav-list:hover {
+    color: orange;
+    text-decoration: underline;
+}
 .nav-btn {
     background-color: orange;
     width: 8.5rem;
@@ -44,4 +48,85 @@
 }
 .nav-btn:hover {
     background-color: rgb(227, 148, 2);
+}
+.section1 {
+    background-color: beige;
+    /* padding: 4.1rem 0 9.6rem 0; */
+}
+.hero-section {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    align-items: center;
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+.h1{
+    color: rgb(54, 28, 10);
+    font-size: 3.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-paragraph-description{
+    color: grey;
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-buttons {
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.btn-one {
+    background-color: rgb(210, 143, 19);
+    color: white;
+    font-size: 2rem;
+    border: none;
+    border-radius: 1rem;
+    width: 18rem;
+    height: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.btn-one:hover {
+    background-color: rgb(176, 117, 9);
+}
+.btn-two {
+    background-color: rgb(54, 28, 10);
+    color: white;
+    font-size:1rem;
+    border: none;
+    border-radius: 1rem;
+    width: 8rem;
+    font-weight: bold;
+}
+.btn-two:hover {
+    background-color: rgb(179, 178, 178);
+    color: rgb(54, 28, 10);
+}
+
+.customers-images {
+    margin-top: 2rem;
+    display: flex;
+
+}
+.customer {
+    border-radius: 2rem;
+    width: 2rem;
+    border: 5rem;
+    border-color: black;
+}
+.customer-detail{
+    display: flex;
+    margin-left: 2rem;
+}
+.details {
+    color: rgb(54, 28, 10);
+}
+.details-span {
+    color: orange;
+}
+.woman {
+    width: 35rem;
+    margin-left: 3rem;
 }
