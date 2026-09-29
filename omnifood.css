@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: beige;
+    
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -11,6 +11,7 @@
     align-items: center;
     height: 9.6rem;
     position: relative;
+    background-color: beige;
 }
 
 .logo {
@@ -48,6 +49,7 @@
 }
 .nav-btn:hover {
     background-color: rgb(227, 148, 2);
+    transition: 1s ease;
 }
 .section1 {
     background-color: beige;
@@ -78,18 +80,19 @@
     gap: 2rem;
 }
 .btn-one {
-    background-color: rgb(210, 143, 19);
+    background-color: orange;
     color: white;
-    font-size: 2rem;
+    font-size: 22px;
     border: none;
     border-radius: 1rem;
-    width: 18rem;
+    width: 235px;
     height: 3rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
 }
 .btn-one:hover {
-    background-color: rgb(176, 117, 9);
+    background-color: rgb(214, 144, 15);
+    transition: 1s ease;
 }
 .btn-two {
     background-color: rgb(54, 28, 10);
@@ -97,12 +100,13 @@
     font-size:1rem;
     border: none;
     border-radius: 1rem;
-    width: 8rem;
+    width: 7rem;
     font-weight: bold;
 }
 .btn-two:hover {
     background-color: rgb(179, 178, 178);
     color: rgb(54, 28, 10);
+    transition: 1s ease;
 }
 
 .customers-images {
@@ -130,3 +134,41 @@
     width: 35rem;
     margin-left: 3rem;
 }
+.brands-header {
+    text-align: center;
+    margin-top: 5rem;
+    color: gray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2rem;
+}
+.brands {
+    margin-top: 6rem;
+    max-width: 190rem;
+    height: 12rem;
+    background-color: rgb(250, 250, 241);
+    align-items: center;
+    
+}
+.brand {
+    height: 1.9rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+
+}
+.brand1{
+    height: 1.9rem;
+    margin-left: 4rem;
+}
+.brand2{
+    height: 1.9rem;
+    margin-left: 4rem;
+}
+.brand3{
+    height: 1.9rem;
+    margin-left: 4rem;
+}
+.brand4{
+    height: 1.9rem;
+    margin-left: 4rem;
+}
+
