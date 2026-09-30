@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     
-    font-family: "Josefin Sans", sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header {
@@ -145,7 +145,7 @@
     margin-top: 6rem;
     max-width: 190rem;
     height: 12rem;
-    background-color: rgb(250, 250, 241);
+    background-color: white;
     align-items: center;
     
 }
@@ -171,4 +171,121 @@
     height: 1.9rem;
     margin-left: 4rem;
 }
+.phone-text {
+    color: orange;
+    margin-top: 6rem;
+    margin-left: 7rem;
+    font-weight: bold;
+}
+.phone-header {
+    color: rgb(54, 28, 10);
+    margin-top: 1rem;
+    margin-left: 7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.phone-section {
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+}
+.phone-number {
+    color: rgb(222, 220, 220);
+    margin-top: 6rem;
+    margin-left: 6rem;
+    font-size: 6rem;
+}
+.phone-title1 {
+    font-size: 3rem;
+    margin-left: 6rem;
+    color: rgb(54, 28, 10);
+    
+}
+.phone-description {
+    color: rgb(158, 157, 157);
+    margin-left: 6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+/* .circles {
+    display: flex;
+}
+.outer-circle {
+    height: 350px;
+    width:350px;
+    background-color: orange;
+    opacity: 0.5;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 9rem;
+    margin-top: 12rem;
+    margin-left: 15rem; */
 
+.app-screen {
+    width: 15rem;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    transition: transform 0.4s ease;
+}
+.app-screen:hover {
+  /* transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25); */
+  transform: rotateY(-8deg) rotateX(4deg) translateY(-10px);
+}
+.app-screen2 {
+    width: 15rem;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    transition: transform 0.4s ease;
+}
+.app-screen2:hover {
+  transform: rotateY(-8deg) rotateX(4deg) translateY(-10px);
+
+}
+.phone-number2 {
+    color: rgb(222, 220, 220);
+    margin-top: 6rem;
+    margin-left: 20rem;
+    font-size: 6rem;
+}
+.phone-title2 {
+    font-size: 3rem;
+    margin-left: 20rem;
+    color: rgb(54, 28, 10);
+}
+.phone-description2 {
+    color: rgb(158, 157, 157)pi;
+    margin-left: 20rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.third-section {
+    padding: 9.6rem 0;
+    
+}
+.meals {
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 0 .4rem 4.8rem rgba(0,0,0,.075);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+
+}
+.meals:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0,0,0,.06);
+}
+
+.meals-title {
+    color: orange;
+    text-align: center;
+    margin-top: 10rem;
+
+}
+
+.meals-header {
+    color: rgb(54, 28, 10);
+    text-align: center;
+
+}
